@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  amznstock2discord:
+    image: iamtakagi/amznstock2discord
+    environment:
+      TZ: Asia/Tokyo
+      WEBHOOK_URL: https://discord.com/api/webhooks/xxx/xxx
+      AMAZON_URL: xxx
+    restart: unless-stopped
