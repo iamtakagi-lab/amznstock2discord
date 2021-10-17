@@ -1,9 +1,8 @@
 # coding: UTF-8
 # !/usr/bin/python
 
-import re
 import os
-import requests, json
+import requests
 from bs4 import BeautifulSoup
 from notifier import notify
 
