@@ -23,4 +23,4 @@ def check():
             return
         if source[0].string == 'Amazon.co.jp':
             price = soup.select('#price_inside_buybox')[0].string
-            notify("販売元 amazon.co.jp の在庫があります:{} {}".format(price, url))
+            notify("販売元 Amazon.co.jp の在庫があります:{} {}".format(price, url))
